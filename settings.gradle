@@ -1,0 +1,8 @@
+rootProject.name = 'NewsSpider'
+
+/*
+dependencies {
+
+    testCompile 'junit:junit:4.12'
+
+}*/
