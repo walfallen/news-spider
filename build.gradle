@@ -3,12 +3,12 @@ version '1.0'
 
 apply plugin: 'java'
 apply plugin: 'idea'
-//apply plugin: 'application'
+apply plugin: 'application'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-//mainClassName = 'com.yc.spider.Manager'
+mainClassName = 'com.yc.spider.Manager'
 
 repositories {
     mavenCentral()

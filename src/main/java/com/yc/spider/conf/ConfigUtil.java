@@ -39,6 +39,7 @@ public class ConfigUtil {
             return Integer.parseInt(settings.get(key));
         }
     }
+
     public static float getFloat(String key){
         if(!settings.containsKey(key)) return 0;
         else{

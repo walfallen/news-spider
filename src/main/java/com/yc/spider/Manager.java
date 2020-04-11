@@ -23,6 +23,7 @@ public class Manager {
     public static void main (String[] args) {
         new Manager().start();
     }
+
     public void start() {
         float ruleReadFrequency = ConfigUtil.getFloat("urlRuleReadFrequency");
         Timer timer = new Timer();

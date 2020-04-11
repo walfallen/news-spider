@@ -1,4 +1,3 @@
-package com.yc.spider.test;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;

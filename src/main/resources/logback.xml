@@ -13,7 +13,7 @@
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <Encoding>UTF-8</Encoding>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>./NewsSpider-%d{yyyy-MM-dd}.log</FileNamePattern>
+            <FileNamePattern>./log/NewsSpider-%d{yyyy-MM-dd}.log</FileNamePattern>
             <MaxHistory>100</MaxHistory>
             <TimeBasedFileNamingAndTriggeringPolicy
                     class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">

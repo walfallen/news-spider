@@ -1,5 +1,3 @@
-package com.yc.spider.test;
-
 import com.yc.spider.util.ImgUtils;
 
 /**

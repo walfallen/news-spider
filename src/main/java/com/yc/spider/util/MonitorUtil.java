@@ -2,13 +2,10 @@ package com.yc.spider.util;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
 
@@ -16,7 +13,9 @@ import java.io.IOException;
  * Created by youmingwei on 17/4/13.
  */
 public class MonitorUtil {
+
     public static ObjectMapper objectMapper = new ObjectMapper();
+
     public static void alertToDingDing(String msg) {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         String url = "https://oapi.dingtalk.com/robot/send?access_token=" +
